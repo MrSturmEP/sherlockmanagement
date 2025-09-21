@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sherlockmanagement",
+  "version": "${version}",
+  "name": "Sherlock Management",
+  "description": "Client-side Fabric mod scaffold.",
+  "authors": [
+    "MrSturm"
+  ],
+  "license": "MIT",
+  "icon": "assets/sherlockmanagement/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mrsturm.sherlock.client.SherlockClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": ">=0.129.0+1.21.8",
+    "minecraft": "1.21.8"
+  }
+}
